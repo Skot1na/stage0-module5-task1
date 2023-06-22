@@ -30,16 +30,14 @@ public class ArrayTasks {
      * length = 5  -> [1, 2, 3, 4, 5]
      */
     public int[] generateNumbers(int length) {
-        int[] arr = new int[length];
-        if (length > 0){
-            for (int i = 0; i < arr.length; i++){
-                if (i == length){
-                    break;
-                }
-                System.out.println(arr[i]);
-            }
+        if (length <= 0) {
+            throw new IllegalArgumentException("Length parameter must be greater than 0.");
         }
-        return arr;
+        int[] numbers = new int[length];
+        for (int i = 0; i < length; i++) {
+            numbers[i] = i + 1;
+        }
+        return numbers;
     }
 
     /**
@@ -88,7 +86,14 @@ public class ArrayTasks {
      * arr = ["pineapple", "apple", "pen"] -> ["pen", "apple", "pineapple"]
      */
     public String[] reverseArray(String[] arr) {
-        return null;
+        int length = arr.length;
+        String[] reversed = new String[length];
+
+        for (int i = 0; i < length; i++) {
+            reversed[i] = arr[length - 1 - i];
+        }
+
+        return reversed;
     }
 
     /**
