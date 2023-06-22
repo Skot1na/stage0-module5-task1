@@ -70,16 +70,12 @@ public class ArrayTasks {
      * arr = [5, -3, -4],   number = 10    ->  -1
      */
     public int findIndexOfNumber(int[] arr, int number) {
-        for (int i = 0; i < arr.length; i++){
-            if (number == arr[i]){
-                System.out.println(i);
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == number) {
+                return i;
             }
-            else
-                System.out.println(-1);
-            break;
         }
-
-        return number;
+        return -1;
     }
 
     /**
