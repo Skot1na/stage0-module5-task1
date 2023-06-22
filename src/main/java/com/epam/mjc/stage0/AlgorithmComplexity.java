@@ -21,26 +21,27 @@ public class AlgorithmComplexity {
      */
     public Complexity badLinerSearch() {
 
+        return null;
     }
 
     /**
      * Return the complexity of accessing an array element by index.
      */
     public Complexity arrayIndexItemAccess() {
-
+        return null;
     }
 
     /**
      * Return the complexity of a binary search.
      */
     public Complexity binarySorting() {
-
+        return null;
     }
 
     /**
      * Return the complexity of the twoCycleSorting algorithm.
      */
     public Complexity twoCycleSorting() {
-
+        return null;
     }
 }
