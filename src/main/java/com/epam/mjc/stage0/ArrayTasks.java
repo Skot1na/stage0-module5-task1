@@ -17,6 +17,7 @@ public class ArrayTasks {
             System.out.println(elements);
         }
 
+        return seasons;
     }
 
     /**
@@ -30,7 +31,7 @@ public class ArrayTasks {
      * length = 5  -> [1, 2, 3, 4, 5]
      */
     public int[] generateNumbers(int length) {
-        int[] arr ={1, 2, 3, 4, 5, 6};
+        int[] arr = new int[length];
         if (length > 0){
             for (int i = 0; i < arr.length; i++){
                 if (i == length){
@@ -39,6 +40,7 @@ public class ArrayTasks {
                 System.out.println(arr[i]);
             }
         }
+        return arr;
     }
 
     /**
@@ -56,6 +58,7 @@ public class ArrayTasks {
         }
         System.out.println(sum);
 
+        return sum;
     }
 
     /**
@@ -77,6 +80,7 @@ public class ArrayTasks {
             break;
         }
 
+        return number;
     }
 
     /**
@@ -108,9 +112,10 @@ public class ArrayTasks {
             if (arr[i] <= 0){
                 continue;
             }
-            System.out.println(arr[i]);
+            System.out.print(arr[i] + " ");
         }
 
+        return arr;
     }
 
     /**
