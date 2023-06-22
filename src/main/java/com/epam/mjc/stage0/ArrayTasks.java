@@ -12,7 +12,7 @@ public class ArrayTasks {
      */
     public String[] seasonsArray() {
         String[] seasons = {"winter", "spring", "summer", "autumn"};
-        for (int i = 0; i <= seasons.length; i++){
+        for (int i = 1; i <= seasons.length; i++){
             String elements = seasons[i];
             System.out.println(elements);
         }
@@ -33,7 +33,7 @@ public class ArrayTasks {
     public int[] generateNumbers(int length) {
         int[] arr = new int[length];
         if (length > 0){
-            for (int i = 0; i < arr.length; i++){
+            for (int i = 1; i < arr.length; i++){
                 if (i == length){
                     break;
                 }
