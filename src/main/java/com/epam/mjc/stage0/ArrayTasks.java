@@ -11,10 +11,9 @@ public class ArrayTasks {
      * Return a String[] array that will list all the seasons of the year, starting with winter.
      */
     public String[] seasonsArray() {
-        String[] seasons = {"winter", "spring", "summer", "autumn"};
-        for (int i = 1; i <= seasons.length; i++){
-            String elements = seasons[i];
-            System.out.println(elements);
+        String[] seasons = {"Winter", "Spring", "Summer", "Autumn"};
+        for (String season : seasons) {
+            System.out.println(season);
         }
 
         return seasons;
@@ -33,7 +32,7 @@ public class ArrayTasks {
     public int[] generateNumbers(int length) {
         int[] arr = new int[length];
         if (length > 0){
-            for (int i = 1; i < arr.length; i++){
+            for (int i = 0; i < arr.length; i++){
                 if (i == length){
                     break;
                 }
