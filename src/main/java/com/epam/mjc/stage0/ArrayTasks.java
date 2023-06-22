@@ -17,7 +17,6 @@ public class ArrayTasks {
             System.out.println(elements);
         }
 
-        return seasons;
     }
 
     /**
@@ -40,7 +39,6 @@ public class ArrayTasks {
                 System.out.println(arr[i]);
             }
         }
-        return arr;
     }
 
     /**
@@ -58,7 +56,6 @@ public class ArrayTasks {
         }
         System.out.println(sum);
 
-        return sum;
     }
 
     /**
@@ -80,7 +77,6 @@ public class ArrayTasks {
             break;
         }
 
-        return number;
     }
 
     /**
@@ -115,7 +111,6 @@ public class ArrayTasks {
             System.out.println(arr[i]);
         }
 
-        return arr;
     }
 
     /**
